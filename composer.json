@@ -5,7 +5,7 @@
     "bitrix", "bitrix24", "wrapper", "API", "class", "REST", "integration", "form"
   ],
   "version": "1.0",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
