@@ -1,0 +1,26 @@
+{
+  "name": "neverov12/bitrix24-simple-integration",
+  "description": "A small PHP warapper for Bitrix24 REST API for fast integtaion site forms based on Guzzle",
+  "keywords": [
+    "bitrix", "bitrix24", "wrapper", "API", "class", "REST", "integration", "form"
+  ],
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anton Neverov",
+      "email": "nevervo12@gmail.com",
+      "homepage": "https://patriotovsky.ru"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "6.3.3",
+    "php": ">=5.5.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bitrix\\": "src"
+    }
+  }
+}
