@@ -4,8 +4,7 @@
   "keywords": [
     "bitrix", "bitrix24", "wrapper", "API", "class", "REST", "integration", "form"
   ],
-  "version": "1.0",
-  "minimum-stability": "stable",
+  "version": "1.0.0",
   "license": "MIT",
   "authors": [
     {
@@ -15,7 +14,7 @@
     }
   ],
   "require": {
-    "guzzlehttp/guzzle": "6.3.3",
+    "guzzlehttp/guzzle": "6.*",
     "php": ">=5.5.0",
     "ext-json": "*"
   },
